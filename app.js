@@ -1,7 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 
-var blink = require('./blink');
+var player = require('./player');
 
 var app = express();
 
@@ -11,10 +11,12 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static(__dirname + '/'));
 
-app.get('/scare', function(req, res) {
-  console.log('/scare');
+app.get('/play/:tone', function(req, res) {
+  var tone = req.params.tone;
 
-  blink.scareThem();
+  console.log('/play', tone);
+
+  player.play(tone);
   res.status(200).send(true);
 });
 
