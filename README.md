@@ -16,6 +16,8 @@
 # Skalinada
 A MicroPython (with a little help from JavaScript) implementation of "Musical Stairs" project.
 
+[![Test run](http://img.youtube.com/vi/8_1KpfKvURU/0.jpg)](http://www.youtube.com/watch?v=8_1KpfKvURU)
+
 ## Intro
 The project relies on WiPy for protocell readings and a RaspberryPi for playing the dedicated sounds and the current version uses only 5 photocell sensors and is limited to 5 tones, namely: A, B, C, D, E.
 
