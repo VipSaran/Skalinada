@@ -1,3 +1,18 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Skalinada](#skalinada)
+  - [Intro](#intro)
+  - [How it works](#how-it-works)
+  - [Setup](#setup)
+    - [Python](#python)
+    - [JavaScript](#javascript)
+  - [Running](#running)
+  - [Thanks](#thanks)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Skalinada
 A MicroPython (with a little help from JavaScript) implementation of "Musical Stairs" project.
 
