@@ -24,6 +24,8 @@ player_address = '192.168.2.110'
 player_port = 3030
 
 DARK = 0
+DARK_ACCUMULATED = 1000
+DELAY = 500
 
 
 def sendRequest(tone):
@@ -46,9 +48,9 @@ def RCtime():
         dark_duration = 0
         while (cell.pin.value() == DARK):
             dark_duration += 1
-            if dark_duration > 1000:
+            if dark_duration > DARK_ACCUMULATED:
                 sendRequest(cell.tone)
-                time.sleep_ms(500)
+                time.sleep_ms(DELAY)
                 dark_duration = 0
 
 
