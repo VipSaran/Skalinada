@@ -1,6 +1,6 @@
 {
-  "name": "skalinada",
-  "version": "0.0.1",
+  "name": "Skalinada",
+  "version": "1.0",
   "private": true,
   "scripts": {
     "start": "node ./app"
